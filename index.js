@@ -6,10 +6,13 @@ const multiply = (num1 * num2)
 //     return (31*2);
 // }
 
-const random = Math.round(Math.random())
+const random = Math.round(Math.random()*10)
+console.log(random);
 
 let num3 = 34;
+
 let num4 = 5;
+
 const mod = (num3%num4);
 
 const max = (Math.max(1,3,5,7,20));
